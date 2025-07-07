@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Dialog } from "@/components/ui/dialog";
 import { IconArrowRight } from "@tabler/icons-react";
 import Image from "next/image";
 import React from "react";
@@ -31,6 +32,7 @@ function DoctorAgentCard({ doctorAgent }: props) {
       <Button className='w-full mt-2'>
         Start Consultation <IconArrowRight className='mt-1' />
       </Button>
+      <Dialog />
     </div>
   );
 }
